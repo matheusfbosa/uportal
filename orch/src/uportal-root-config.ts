@@ -1,19 +1,10 @@
 import { registerApplication, start } from "single-spa";
 
 registerApplication({
-  name: "@single-spa/welcome",
-  app: () =>
-    System.import(
-      "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js"
-    ),
-  activeWhen: ["/"],
+  name: "@uportal/navbar",
+  app: () => System.import("@uportal/navbar"),
+  activeWhen: ["/"]
 });
-
-// registerApplication({
-//   name: "@uportal/navbar",
-//   app: () => System.import("@uportal/navbar"),
-//   activeWhen: ["/"]
-// });
 
 start({
   urlRerouteOnly: true,

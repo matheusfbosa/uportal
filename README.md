@@ -4,4 +4,5 @@
 
 ## Components
 
-- Orch: μPortal orchestrator vanilla JS.
+- Orch: μPortal orchestrator using vanilla JS.
+- Navbar: μPortal navbar using React.
