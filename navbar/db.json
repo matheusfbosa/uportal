@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Home",
+      "description": "Home page",
+      "icon": "Home",
+      "url": "/"
+    },
+    {
+      "id": 2,
+      "name": "Kanban",
+      "description": "Kanban page",
+      "icon": "ListAlt",
+      "url": "/kanban"
+    },
+    {
+      "id": 3,
+      "name": "IAM",
+      "description": "IAM page",
+      "icon": "People",
+      "url": "/iam"
+    }
+  ]
+}

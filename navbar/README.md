@@ -26,7 +26,11 @@ Then you can execute:
 npm run start
 ```
 
-So the application will be available on [localhost:9000](http://localhost:9000).
+To run a JSON Server on [localhost:8080](http://localhost:8080) for local development:
+
+```bash
+npm run dev
+```
 
 ## License
 
