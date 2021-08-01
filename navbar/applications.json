@@ -1,5 +1,5 @@
 {
-  "products": [
+  "applications": [
     {
       "id": 1,
       "name": "Home",
@@ -9,10 +9,10 @@
     },
     {
       "id": 2,
-      "name": "Kanban",
-      "description": "Kanban page",
+      "name": "Tasks",
+      "description": "Tasks page",
       "icon": "ListAlt",
-      "url": "/kanban"
+      "url": "/tasks"
     },
     {
       "id": 3,

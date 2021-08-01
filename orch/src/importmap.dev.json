@@ -1,0 +1,15 @@
+{
+  "imports": {
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
+    "react": "https://unpkg.com/react@17/umd/react.production.min.js",
+    "react-dom": "https://unpkg.com/react-dom@17/umd/react-dom.production.min.js",
+    "react-router-dom": "https://unpkg.com/react-router-dom@5.2.0/umd/react-router-dom.min.js",
+    "@uportal/root-config": "http://localhost:9000/uportal-root-config.js",
+    "@uportal/utils": "http://localhost:9001/uportal-utils.js",
+    "@uportal/navbar": "http://localhost:9002/uportal-navbar.js",
+    "@uportal/footer": "http://localhost:9003/uportal-footer.js",
+    "@uportal/home": "http://localhost:9004/uportal-home.js",
+    "@uportal/tasks": "http://localhost:9005/uportal-tasks.js",
+    "@uportal/table": "http://localhost:9006/uportal-table.js"
+  }
+}

@@ -1,10 +1,8 @@
 {
-  "name": "@uportal/navbar",
+  "name": "@uportal/home",
   "scripts": {
-    "server": "node ./server.js",
-    "start": "webpack serve --port 9002",
-    "dev": "concurrently \"npm run server\" \"npm run start\"",
-    "start:standalone": "webpack serve --port 9002 --env standalone",
+    "start": "webpack serve --port 9004",
+    "start:standalone": "webpack serve --env standalone --port 9004",
     "build": "webpack --mode=production",
     "analyze": "webpack --mode=production --env analyze",
     "lint": "eslint src --ext js,ts,tsx",
@@ -25,7 +23,6 @@
     "@babel/runtime": "^7.14.6",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
-    "@types/jest": "^26.0.24",
     "@types/testing-library__jest-dom": "^5.14.0",
     "babel-jest": "^27.0.5",
     "concurrently": "^6.2.0",
@@ -51,16 +48,17 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "@material-ui/core": "^4.12.1",
+    "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
+    "@types/jest": "^26.0.23",
     "@types/react": "^17.0.11",
     "@types/react-dom": "^17.0.8",
     "@types/systemjs": "^6.1.0",
     "@types/webpack-env": "^1.16.0",
-    "json-server": "^0.16.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "single-spa": "^5.9.3",
+    "react-router-dom": "^5.2.0",
+    "recharts": "^2.0.10",
     "single-spa-react": "^4.2.0"
   }
 }

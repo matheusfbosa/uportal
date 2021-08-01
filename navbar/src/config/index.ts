@@ -1,5 +1,3 @@
-const BASE_URL = window.location.hostname.includes("localhost")
-  ? "http://localhost:8080"
-  : "https://uportal.herokuapp.com";
+const APPS_URL = "https://run.mocky.io/v3/c9420714-37b1-42f2-a0f4-7f6190bc0931";
 
-export default BASE_URL;
+export default APPS_URL;

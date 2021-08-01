@@ -1,6 +1,6 @@
-# Navbar
+# Home
 
-μPortal navbar developed using React.
+μPortal home developed using React.
 
 ## Getting started
 
@@ -26,13 +26,7 @@ Then you can execute:
 npm run start
 ```
 
-So the application will be available on [localhost:9002](http://localhost:9002).
-
-To run with a JSON Server on [localhost:8080](http://localhost:8080) for local development:
-
-```bash
-npm run dev
-```
+So the application will be available on [localhost:9004](http://localhost:9004).
 
 ## License
 
