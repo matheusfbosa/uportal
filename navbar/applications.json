@@ -1,0 +1,25 @@
+{
+  "applications": [
+    {
+      "id": 1,
+      "name": "Home",
+      "description": "Home page",
+      "icon": "Home",
+      "url": "/"
+    },
+    {
+      "id": 2,
+      "name": "Tasks",
+      "description": "Tasks page",
+      "icon": "ListAlt",
+      "url": "/tasks"
+    },
+    {
+      "id": 3,
+      "name": "IAM",
+      "description": "IAM page",
+      "icon": "People",
+      "url": "/iam"
+    }
+  ]
+}
